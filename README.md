@@ -119,3 +119,79 @@ HTML 5
 
         Nested List  = a list cna contain another list as a list item.
 
+    Tables
+    --------------------
+
+        table
+                sub-eleemnts
+                    caption
+                    thead
+                    tbody
+                    tfoot
+                    tr
+
+                attributes
+                    border
+                    width
+                    height
+                    cellspacing
+                    cellpadding
+
+        tr
+                sub-elements
+                    th
+                    td
+
+                            rowspan
+                            colspan
+
+    iframe
+    ----------------------------------------
+        an iframe is used to embed on web page into
+        another web page.
+
+        <iframe src="url" width="" height="" >
+        </iframe>
+
+    Links
+    -----------------------------------------
+        anchro element      a
+
+            <a href="url" target="">Link Text</a>
+
+            target      _self
+                        _frameName
+                        _blank
+
+    div and span
+    -------------------------------------------
+
+        div is a block element used to 
+            group a set of elements so that they
+            can be treated as a unit while giving styles.
+
+        span is a inline element used to 
+            group a set of elements so that they
+            can be treated as a unit while giving styles.
+
+    Media Elements
+    ---------------------------------------------
+
+        img
+                src             path of the image file
+                width
+                height
+                alt             an alternate message incase th iamge loading fails.
+
+        
+        video
+                controls        mentioning this attribs makes the playback control appera.
+
+                source
+                    src         path of the video file
+
+        audio
+                controls        mentioning this attribs makes the playback control appera.
+
+                source
+                    src         path of the audio file
