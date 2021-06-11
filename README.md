@@ -195,3 +195,88 @@ HTML 5
 
                 source
                     src         path of the audio file
+
+        canvas  is used to draw a graphic dynamically using the Graphics api
+                with any client script like vbscript/javascript
+
+        svg     is used to render logo or animated graphics of svg.
+
+    HTML 5 symatic eleemnts
+    ------------------------------
+
+        SEO -   Search Engine Optimization.
+
+                web-crawling that traverses through all availble web sites,
+                the words and sentence are subjected to page ranking 
+                algorithmes.
+
+
+        h1 to h6
+
+        strong,em, mark,del,ins,addr,tel               <===> span
+
+        header,article,aside,main,section,nav,footer    <===> div
+
+    HTML Form Elements
+    -------------------------------
+
+        id      is an attribute to each and every html element
+                to enables us to access that eleemnt in the client sciprt.
+                it is not possible that two or more elements to have the same id.
+
+
+        name    is an attribute to all form elements used access the submited
+                data on the server side.
+
+        form
+                action      the url to whom the data has to be submited
+                method      GET | POST 
+                novalidate
+
+
+        label       holds the field name        
+                    for     refer to that form element it is attached to.
+
+        button      type    button | reset | submit (default)
+                    name
+                    value
+                    formaction   the url to whom the data has to be submited
+                    formmethod   GET | POST 
+
+        select      multiple
+                    name
+                    option
+                        value
+        
+        textarea    rows
+                    cols
+
+        input       type    text/password/file/checkbox/radio/hidden
+                            date/time/datetime-local/number/decimal/range
+                            email
+
+                    value                   hold the default value
+                    placeholder             alternate for label, use give hints..etc
+
+
+        html 5 form element validation attriubtes
+        -----------------------------------------------------
+            required
+            min
+            max
+            minlength
+            maxlength
+            pattern
+
+    HTML 5 API
+    --------------------------------
+        Web Storage     
+            used for storing data on the client machine like cookies
+
+        Drag and Drop
+        
+        Graphics                geerate dynamic graphics on canvas
+
+        Geolocation             aquire the client gps location
+
+        Web worker              enable exdecuting heavy laoded jobs in background
