@@ -279,4 +279,137 @@ HTML 5
 
         Geolocation             aquire the client gps location
 
-        Web worker              enable exdecuting heavy laoded jobs in background
+        Web worker              enable executing heavy laoded jobs in background
+
+    CSS
+    ---------------------------------
+        cascading Style Sheets
+
+            used to style web pages.
+
+            1. CSS isolates teh page content and the page style
+            2. CSS bring uniform css properties to style each and every html element.
+
+
+            Css is applied as
+                1. inline-styles
+                2. embeded styles
+                3. external styles
+
+            Inline Styles
+            -------------------
+
+                style attribute on any eleemnt to be styled
+
+                <tagName style="css-property:value;css-property:value">
+                </tagName>
+                
+                the style is applied only to that tag
+                on which its is defined.
+
+            Embeded Styles
+            ----------------------
+
+                style element in head element is used to apply
+                embeded styles
+
+                    <head>
+                     ...
+                     <style>
+                        selector {
+                            css-property:value
+                        }
+                     </style>
+                    </head>
+
+                each and every page must be applied with the
+                individual style.
+
+            External Styles
+            ----------------------
+
+                mystyle.css
+                --------------
+                        selector {
+                            css-property:value
+                        }
+                
+
+                <head>
+                    <link rel="stylesheet" href="mystyle.css"/>
+                </head>
+
+        Style conflicts?
+        ---------------------
+
+            in the order of incusion, the styles that
+            are close and newer will override the farther
+            or the older styles.
+
+        CSS Selectors
+        ----------------------
+
+            selector is a small string or expression that
+            if matched by any element in a page, will be applied with the
+            style enclosed in the selector.
+
+            Tag Name Selectors
+            -------------------
+                each tag name itself acts like a selector
+
+                tagName{
+                    css-property:value
+                }
+
+                all those element whose tagNaem matches with the tagName
+                in the style sheet is applied with the respective styling...!
+
+            Attribute Name Selectors
+            -----------------------------
+                each attribute itelf acts like a selector
+
+                [attributeName]{
+                    css-property:value;
+                }
+
+              all those element that have the attribute mentioned as is
+                in the style sheet, is applied with the respective styling...!
+
+            Class Selectors
+            ----------------------------
+
+                is any user defined name of category.
+
+                .className{
+                    css-property:value;
+                }
+
+                any element which is having class="className" ,
+                will be applied witht he rewpective style.
+
+            Id Selectors
+            ----------------------------
+
+                as we know id is used to identify an element uniquly,
+                no two eleemnts can have the saem id.
+
+                if we wish to target a specific element only,
+                then we style it using its id;
+
+                #id{
+                    css-property:value
+                }
+
+            Psudo Selectors
+            ----------------------------
+
+                are a few pre-defiend selectors
+                that each work differently.
+
+                each psudeo selector starts with a ':'
+
+        CSS Operators and list of Psuedo Selectors
+        --------------------------------------------
+
+        CSS Properties
+        ----------------------

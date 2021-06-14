@@ -1,0 +1,43 @@
+body{
+   background-color: #f0f00f;
+}
+
+div{
+    border:2px solid #000000;
+    margin-bottom: 4px;
+}
+
+p{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+[src] {
+    border:0px;
+    width:200px;
+    height: 200px;
+    margin:10px;
+}
+
+.imp{
+    text-decoration: underline;
+}
+
+.tobeNoted{
+    font-weight: bolder;
+}
+
+#para1{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    font-size:14pt;
+}
+ 
+#para1:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
