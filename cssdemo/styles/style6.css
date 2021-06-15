@@ -1,0 +1,35 @@
+h1,h2,h3,h4,h5,h6{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 15pt;
+}
+
+section p{
+    font-weight: 800;
+}
+
+section>p{
+    font-style: italic;
+}
+
+h3+p{
+    text-transform: uppercase;
+}
+
+[type='number']{
+    text-align: right;
+}
+
+[type='text']{
+    text-align:center;
+}
+
+p::first-letter{
+    font-size: 25pt;
+}
+
+p:first-of-type{
+    border-top:1px solid black;
+}

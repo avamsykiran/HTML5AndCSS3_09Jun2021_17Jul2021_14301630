@@ -408,8 +408,151 @@ HTML 5
 
                 each psudeo selector starts with a ':'
 
-        CSS Operators and list of Psuedo Selectors
+        CSS Operators 
         --------------------------------------------
 
-        CSS Properties
-        ----------------------
+        s1		applies to elements that have s1 as tag name
+        .s1		applies to elements that have s1 as class
+        #s1		applies to elements that have s1 as id
+
+        s1,s2	applies to elements that match both selectors
+        s1 s2	applies to all elements that match s2 and are inside s1
+        s1>s2	applies to all elements that match s2 whose parent is s1
+        s1+s2	applies to all elements that match s2 and are immediately after s1
+        s1~s2	applies to every element that match s2 and is preceded by s1
+
+                        applies to all elements that have
+                        ------------------------------------
+        [s1]			 s1 as attribute
+        [s1='v1']		 s1 attrib with v1 value
+        [s1~='v1']		 s1 attrib value containes word v1
+        [s1*='v1']		 s1 attrib value containes word v1
+        [s1!='v1']		 s1 attrib value not equal to v1
+        [s1^='v1']		 s1 attrib value starts with the word v1
+        [s1$='v1']		 s1 attrib value ends with the word v1
+
+        Psuedo selectors
+        ----------------------------------------------------------------------------
+        input:enabled	Selects every enabled <input> element
+        p:first-child	Selects every <p> element that is the first child 
+                        of its parent
+        p::first-letter	Selects the first letter of every <p> element
+        p::first-line	Selects the first line of every <p> element
+        p:first-of-type	Selects every <p> element that is the first <p> 
+                        element of its parent
+        input:focus		Selects the input element which has focus
+        a:hover			Selects links on mouse over
+        input:in-range	Selects input elements with a value within a specified range
+
+        input:indeterminate		
+                        Selects input elements that are in an indeterminate state
+
+        input:invalid	Selects all input elements with an invalid value
+        input:optional	Selects input elements with no "required" attribute
+
+        p:last-child	Selects every <p> element that is the last child of its parent
+        p:last-of-type	Selects every <p> element that is the last <p> element of its parent
+
+        a:link			Selects all unvisited links
+        :not(p)			Selects every element that is not a <p> element
+        p:nth-child(2)	Selects every <p> element that is the second child of its parent
+        p:nth-last-child(2)	
+                        Selects every <p> element that is the second child of its parent, 
+                        counting from the last child
+
+        p:nth-last-of-type(2)	
+                        Selects every <p> element that is the second <p> element of its parent, 
+                        counting from the last child
+        p:nth-of-type(2)	
+                        Selects every <p> element that is the second <p> element of its parent
+
+        CSS - unit of measure
+        -----------------------------------
+
+        absolute		(irrespective of screen size)
+            in
+            mm              
+            cm
+            pt		1 in = 72 pt
+            pc		1 in = 6  pc   1 pc = 12 pt
+        
+        relative 	(to screen size)
+        
+            px
+            
+            %
+            
+            em			relative the font-size
+                        1 em = complete font-size
+                                            
+                        font-size: 12pt;
+                        width: 8em;	8*12pt = 96pt;
+                        
+            vh			1% of viewport height
+            vw			1% of viewport width
+            vmin		min of vh or vw
+                                                
+        CSS font related properties
+        -----------------------------------
+            font-family
+            font-size
+            font-variant		normal or small-caps
+            font-weight			bold or bolder or boldest 
+                                or any number like 300,400,500..etc
+            font-style			italic or oblique
+            
+        CSS Text related Proeprties
+        -----------------------------------
+            color
+            direction
+            letter-spacing
+            word-spacing
+            text-align
+            text-indent
+            text-decoration		none | underline | line-through | overline
+            
+======================================================================            
+        Web Page (html document)
+            1. heading bearing your name in bold capitals.
+            2. following the heading a blue backgrounded para stating
+                your skills (key-words)
+            3. a section displaying your technical skills
+            4. a section displaying your experience
+            5. a section displaying your qualifcations
+            6. a form to contact you.
+======================================================================
+        
+        table related css prperties
+        ------------------------------------
+            border-collapse			collapse or seperate
+            border-spacing
+            caption-stde			top left right bottom
+            
+        CSS list related properties
+        ----------------------------------
+
+            list-style-type			disc	circle	square	none	for ul
+                                    decimal							for ol
+                                    decimal-leading-zero	
+                                    lower-alpha
+                                    upper-alpha
+                                    lower-roman
+                                    upper-roman
+            list-style-position		outside or inside
+            list-style-image:		url('imgs/note.png')
+            marker-offset
+            
+        display css proeprty
+        ------------------------------
+
+            display:		none		block	inline	inline-block table-cell
+            
+        controlling scroll bars
+        ------------------------------------
+            
+            overflow
+                        visible
+                        scroll
+                        auto
+                        hidden
+                    
