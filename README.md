@@ -500,7 +500,7 @@ HTML 5
             font-weight			bold or bolder or boldest 
                                 or any number like 300,400,500..etc
             font-style			italic or oblique
-            
+             
         CSS Text related Proeprties
         -----------------------------------
             color
@@ -555,4 +555,18 @@ HTML 5
                         scroll
                         auto
                         hidden
-                    
+        
+        background proeprties
+        -------------------------------------
+            background-color
+            opacity
+
+            background-image
+            background-repeat
+            background-poisition
+
+        Position property
+        --------------------------------------
+
+            relative
+            absolute

@@ -1,0 +1,60 @@
+body{
+    background-color: #5a5a5a;
+    background-image: url('../imgs/roses2.jpg');
+    background-repeat: no-repeat;
+}
+
+section{
+    width: 90%;
+    margin:auto;
+}
+
+div{
+    border:0.5px solid #000000;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    margin:5px;
+    padding:8px;
+    overflow: auto;
+    background-color: #2f2f2f;
+}
+
+div:nth-child(1){
+    opacity: 0.65;
+}
+
+div:nth-child(2){
+    background-image: url('../imgs/roses3.jpg');
+}
+
+div:nth-child(3){
+    background-image: url('../imgs/roses3.jpg');
+    background-size: contain;
+}
+
+div:nth-child(2) ol{
+    list-style-type:  decimal-leading-zero;
+}
+div:nth-child(3) ol{
+    list-style-type:  lower-alpha;
+}
+div:nth-child(4) ol{
+    list-style-type:  lower-greek;
+}
+div:nth-child(5) ol{
+    list-style-type:  lower-roman;
+}
+
+div:nth-child(2) ul{
+    list-style-type:  circle;
+}
+div:nth-child(3) ul{
+    list-style-type:  square;
+}
+div:nth-child(4) ul{
+    list-style-type:  none;
+}
+div:nth-child(4) ul{
+   // list-style-image:url('../imgs/roses.jpg')
+}
