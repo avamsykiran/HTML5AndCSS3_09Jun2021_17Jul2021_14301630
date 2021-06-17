@@ -1,0 +1,65 @@
+    /******** BODY ********/
+            
+    body{
+        margin: 0px 100px 100px 100px ;
+        background-color: #F4F9F9;
+        font-family:verdana;
+        font-size:14;
+    }
+    
+    /******** HEADER ********/
+    
+    header{
+        border-bottom: solid;
+        border-bottom-color: #AAAAAA;    
+        margin-bottom: 70px;  
+        background-color: ;
+    }
+    header img{
+        border-radius: 50%;
+    }
+    header div{
+        width:30%;
+        margin: auto;
+        color:#383838;
+        display: inline-block;
+        height: 50px;
+    }
+    header div:first-child{
+        text-align: right;
+    }
+    header div h1{
+        text-transform: uppercase;
+        height:50px;
+        line-height:50px;
+    }
+    
+    /******** SECTION ********/
+    
+    section{
+        background-color: #C2F0FC; 
+        border-radius: 15px;
+        padding: 20px 50px 20px;
+        margin: 50px 0px;
+        border-bottom: solid;
+        border-bottom-color: #AAAAAA; 
+        color:#2b2b2b;
+    }
+    ul{
+        list-style-type: none;
+    }
+     .subs{
+        font-style: italic;
+        font-size: 13;
+    }
+    
+    /******** FORM ********/
+    
+    #Contact{
+        font-size:14;
+    }
+   
+    label, input{
+        width:30%;
+        display: inline-block;
+    }

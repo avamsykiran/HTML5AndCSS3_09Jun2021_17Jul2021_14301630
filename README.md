@@ -570,3 +570,16 @@ HTML 5
 
             relative
             absolute
+
+        Responsive Design
+        --------------------------------------
+
+            @media          is a css decorator 
+                            used to cosntruct media queries?
+
+        CSS Animations
+        --------------------------------------
+
+            the css animations are executed
+            as constant change in the value of 
+            a proeprty or properties over time.
